@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "**/*.class": true
+  },
+  "hide-files.files": [
+    "car.class",
+    "Arrays.class"
+  ],
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".vscode/"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      }
+    ]
+  },
+  "hidefiles.selectedProfile": "Show All Files"
+}
