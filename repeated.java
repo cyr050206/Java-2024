@@ -6,7 +6,7 @@ public class repeated {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i, j, n = 0;
-        int count = 0, count1 = 0;
+        int count = 0;// count1 = 0;
         int a[] = new int[10];
         System.out.println("Enter the elements in the array: ");
         for (i = 0; i < a.length; i++) {
