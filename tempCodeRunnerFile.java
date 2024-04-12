@@ -1,1 +1,2 @@
-public class SimultaneousEquationSolver {
+
+		System.out.println(car.doors);

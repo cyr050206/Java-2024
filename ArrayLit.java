@@ -7,8 +7,11 @@ public class ArrayLit {
         food.add("Pizza");
         food.add("Cyrus");
         food.add("Papul");
+        food.add("Dinosaur");
+        int b = food.indexOf("Cyrus");
         for (int i = 0; i < food.size(); i++) {
             System.out.println(food.get(i));
         }
+        System.out.println(b);
     }
 }
