@@ -51,8 +51,8 @@ class Student {
     int maths;
     int total;
 
-    Student() {
-    };
+    /*Student() {
+    };*/
 
     Student(String name, int id, int phys, int chem, int maths) {
         this.name = name;
@@ -64,7 +64,7 @@ class Student {
     }
 
     void display(int i) {
-        System.out.println("Student No. " + (i + 1));
+        System.out.println("Rank #" + (i + 1));
         System.out.println("The name is " + name + " ID: " + id);
         // System.out.println("The ID is " + id);
         System.out.println("Phys marks: " + phys);

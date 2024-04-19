@@ -21,9 +21,7 @@ class Car {
     String make;
     int id;
     int year;
-
-    Car() {
-    };
+Car(){};
 
     Car(String make, int id, int year) {
         this.make = make;
