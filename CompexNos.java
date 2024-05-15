@@ -26,8 +26,10 @@ class CompexNos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        System.out.println("Enter 2nd number:");
 
         int c = sc.nextInt();
         int d = sc.nextInt();
@@ -35,7 +37,8 @@ class CompexNos {
         Complex f = new Complex(a, b);
         Complex e = new Complex(c, d);
         Complex g = new Complex(0, 0);
-        g = g.add(e, f);
+        sc.close();
+        g.add(e, f);
         g.display();
     }
 

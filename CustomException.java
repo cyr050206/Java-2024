@@ -23,3 +23,9 @@ public class CustomException {
     }
     
 }
+class AgeException extends Exception {
+    AgeException(){
+        
+    }
+}
+

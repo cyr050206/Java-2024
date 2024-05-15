@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MArksException {
+public class MarksException {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your marks: ");
@@ -12,7 +12,7 @@ public class MArksException {
         //System.out.println("Exception has occured: "+e);
     }
 }
-    static void checkMarks(int marks)throws Exception{
+    static void checkMarks(int marks)throws MarksOutOfBoundsException{
         if(marks>100){
             throw new MarksOutOfBoundsException("AN EXCEPTION OCCURED:");
         }
@@ -24,6 +24,6 @@ public class MArksException {
 class MarksOutOfBoundsException extends Exception{
     MarksOutOfBoundsException(String message){
         super(message);
-        System.out.println(message);
+       // System.out.println(message);
     }
 }

@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "**/*.class": true
+    "**.class": true
   },
   "hide-files.files": [
     "car.class",
